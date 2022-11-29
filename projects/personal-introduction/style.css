@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to top right, lightpink, white);
+  }
+  
+  h2{
+    color: white;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin: 20px;
+    font-family: futura;
+    background-image: url("https://thumbs.imagekind.com/1981829_650/PINK-BLOSSOMS-Spring--Tree-Blossom-Flowers-Art_art.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: solid 7px white;
+    border-radius: 20px;
+  }
+  
+  h3{
+    color: mediumvioletred;
+   font-family: gill sans;
+    font-size: 28px;
+    padding-left: 19px;
+    margin-bottom: -10px;
+  }
+  
+  p{
+    color: darkslategrey;
+    font-family: gill sans;
+    font-size: 28px;
+    padding-left: 19px;
+    padding-bottom: -5px;
+  }
+  
+  ul{
+    list-style-type: square;
+    font-family: gill sans;
+    font-size: 22px;
+  }
+  
+  li{
+    background-color: mediumvioletred;
+    color: white;
+    width: 20%;
+    margin: 15px;
+  }
+  
+  strong{
+    color: mediumvioletred;
+  }
+  
+  img{
+    width: 40%;
+    margin-left: 19px;
+    border: solid 8px mediumvioletred;
+  }
