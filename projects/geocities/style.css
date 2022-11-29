@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url("https://web.archive.org/web/20091027021924/http://hk.geocities.com/arling_water/game/pink.gif");
+  }
+  
+  .box-one {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    /* Created with https://www.css-gradient.com */
+    background: #ff25d4;
+    background: -webkit-radial-gradient(top, #ff25d4, #ffccf0);
+    background: -moz-radial-gradient(top, #ff25d4, #ffccf0);
+    background: radial-gradient(to bottom, #ff25d4, #ffccf0);
+    opacity: 0.7;
+  }
+  
+  .rose-one {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 15%;
+  }
+  
+  .hearts {
+    position: absolute;
+    top: 40%;
+    right: 33%;
+    width: 40%;
+  }
+  
+  .butterfly {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 25%;
+  }
+  
+  h1 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 4rem;
+    position: fixed;
+    top: 35%;
+    left: 23%;
+    color: limegreen;
+    z-index: 2;
+  }
+  
+  p {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 2rem;
+    z-index: 1;
+    color: purple;
+  }
+  
+  .heart-two {
+    position: fixed;
+    top: 20%;
+    left: 30%;
+  }
+  
+  .seal {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    z-index: 1;
+  }
+  
+  .wallpaper {
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .tiger {
+    position: absolute;
+    top: 95%;
+    left: 32%;
+  }
+  
