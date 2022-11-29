@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap");
+
+* {
+  box-sizing: border box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-text: white;
+  --color-bg-body: #8eba61;
+  --color-bg-header-footer: #195319;
+  --color-link: #a8d4b9;
+  --color-link-hover: yellow;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color-bg-body);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Monoton", cursive;
+}
+
+h1 {
+  font-size: 5.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+a {
+  color: var(--color-link);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 2rem 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+header {
+  margin-bottom: 4rem;
+  background-color: var(--color-bg-header-footer);
+  padding: 3rem;
+}
+
+.subtitle {
+  font-size: 1.65rem;
+  margin-top: 0;
+}
+
+nav {
+  margin-top: 1.5rem;
+}
+
+nav a {
+  font-size: 1.2rem;
+  margin: 0 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+footer {
+  background-color: var(--color-bg-header-footer);
+  margin-top: 4rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+/*Utility*/
+
+.center {
+  margin: 0 auto;
+  max-width: 44rem;
+}
