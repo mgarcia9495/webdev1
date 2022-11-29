@@ -10,9 +10,30 @@
     background-color: bisque;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: chocolate;
+}
+
+h1{
+    font-size: 2.2em;
+    padding: 1rem;
+}
+
+h2{
+    font-size: 1.7em;
+    padding: 1rem;
 }
 
 li {
     list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:firebrick;
 }
