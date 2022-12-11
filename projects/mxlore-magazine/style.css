@@ -38,19 +38,19 @@ body {
 
 .pink{
     color: #b30050;
-    margin: 1rem;
+    margin: 1.5rem;
     
 }
 
 .blue{
     color: #004e74;
-    margin: 1rem;
+    margin: 1.5rem;
     
 }
 
 .purple{
     color: #3c0458;
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 /*Images*/
@@ -147,7 +147,7 @@ li a{
 .container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: .1fr .5fr ;
+    grid-template-rows: .5fr;
    
 
     background-color: yellow;
@@ -218,14 +218,14 @@ li a{
     background-color: red;
 }
 
+
 .item-three{
     grid-column: 1 / -1;
     grid-row: 3 / 4;
 
-
+    padding-bottom: 1.5rem;
     background-color: #145f1f;
 }
-
 
 /*Section Items*/
 
@@ -241,8 +241,8 @@ li a{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
-    padding: 3rem;
+    justify-content: space-between;
+    padding: 2.5rem;
 }
 
 .intro-box{
@@ -272,6 +272,21 @@ li a{
 
 .quote-box-b{
     background-color: #3a81a5;
+    border-radius: 1rem;
+    width: 60%;
+    height: 70%;
+    margin: 3rem;
+    margin-right: -5%;
+    padding: 2rem;
+    color: white;
+    font-size: 1.8em;
+    font-style: italic;
+
+    align-self: flex-end;
+}
+
+.quote-box-c{
+    background-color: #9a89ad;
     border-radius: 1rem;
     width: 60%;
     height: 70%;
