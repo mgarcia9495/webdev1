@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="https://use.typekit.net/fzs0fpj.css">
     <link rel="stylesheet" href="animate.css">
     <script src="wow.min.js"></script>
-    <title>MxLore Magazine</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <div class="container">
 <!-- Hero Section -->
-        <header class="item-one">
+        <header class="item-one-f">
             <img class="logo" src="images/logo-black.png" alt="magazine logo">
                 <nav>
                     <ul class="nav-container">
@@ -22,7 +22,7 @@
                         <li><a href="guadalajara.html">Central Region</a></li>
                         <li><a href="yucatan.html">Southern Region</a></li>
                         <li><a href="interview.html">Exclusive Interview</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
         </header>
@@ -33,15 +33,26 @@
         <section class="section-box-one">
             <img class="ghost-flower wow fadeInRight" data-wow-duration="1s" src="images/ghost-flower.png" alt="illustration of ghost holding flower">
             <div class="intro-box wow fadeInRightBig" data-wow-duration="1.5s">
-            <h1>Quienes Somos</h1>
-             <p>MxLore is your unusual and unconventional international travel guide to Mexico. Get to know famous historical places through folklore and urban legends shared amongst locals. Come and embrace the rich heritage that makes up this beautiful country. Not only will we help plan your trip, but we will also tell you where to stay, and what places to visit. Unforgettable places with unforgettable people.</p>
+            <h1>Contact Us</h1>
+             <p>Let's Chat!</p>
              <div class="form-box">
                 <form action="action_page.php">
                     <div class="form-container">
-                        <h2>Subscribe to Our Newsletter</h2>
-                        <input type="text" placeholder="Name" name="name" required>
-                        <input type="text" placeholder="Email address" name="mail" required>
-                        <input type="Submit" value="subscribe">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="First name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Last name..">
+                    
+                        <label for="lname">Email Address</label>
+                        <input type="text" id="lname" name="lastname" placeholder="yourname@gmail.com">
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Say hello..." style="height:15rem"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    
+                      </form>
                     </div>
                 </form>
             </div>
