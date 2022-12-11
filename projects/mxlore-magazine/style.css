@@ -53,6 +53,11 @@ body {
     margin: 1.5rem;
 }
 
+.yellow{
+    color: #c8ba00;
+    margin: 1.5rem;
+}
+
 /*Images*/
 
 img{
@@ -208,6 +213,7 @@ li a{
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
+    border-bottom: #92c8ac solid 1.3rem;
 }
 
 
@@ -298,6 +304,21 @@ li a{
     font-style: italic;
 
     align-self: flex-end;
+}
+
+.quote-box-d{
+        background-color: #c8ba00;
+        border-radius: 1rem;
+        width: 60%;
+        height: 70%;
+        margin: 3rem;
+        margin-right: -5%;
+        padding: 2rem;
+        color: white;
+        font-size: 1.8em;
+        font-style: italic;
+    
+        align-self: flex-end;
 }
 
  /*Newsletter styling*/
