@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/fzs0fpj.css">
+    <link rel="stylesheet" href="animate.css">
+    <script src="wow.min.js"></script>
     <title>MxLore Magazine</title>
 </head>
 <body>
@@ -29,8 +31,8 @@
         <main class="item-two">
 
         <section class="section-box-one">
-            <img class="ghost-flower" src="images/ghost-flower.png" alt="illustration of ghost holding flower">
-            <div class="intro-box">
+            <img class="ghost-flower wow fadeInRight" data-wow-duration="3s" src="images/ghost-flower.png" alt="illustration of ghost holding flower">
+            <div class="intro-box wow fadeInRight" data-wow-duration="3s">
             <h1>Quienes Somos</h1>
              <p>MxLore is your unusual and unconventional international travel guide to Mexico. Get to know famous historical places through folklore and urban legends shared amongst locals. Come and embrace the rich heritage that makes up this beautiful country. Not only will we help plan your trip, but we will also tell you where to stay, and what places to visit. Unforgettable places with unforgettable people.</p>
              <div class="form-box">
@@ -55,5 +57,8 @@
         </footer>
 <!-- End of Footer Section -->
     </div>
+    <script>
+        new WOW().init();
+        </script>
 </body>
 </html>

@@ -34,10 +34,23 @@ body {
     font-size: 1.3em;
 }
 
+/*Color changes*/
+
 .pink{
     color: #b30050;
     margin: 1rem;
     
+}
+
+.blue{
+    color: #004e74;
+    margin: 1rem;
+    
+}
+
+.purple{
+    color: #3c0458;
+    margin: 1rem;
 }
 
 /*Images*/
@@ -50,6 +63,7 @@ img{
     height: auto;
     width: 50%;
     margin-top: -3%;
+    margin-left: -5%;
 }
 
 .ghost-cactus{
@@ -76,8 +90,11 @@ img{
     height: 70%;
 }
 
+/*Utility*/
+
 .align-center{
     align-self: center;
+    width: 70%;
 }
 
 /*Links & Navigation*/
@@ -114,6 +131,7 @@ ul{
     list-style: none;
 }
 
+
 li a{
     padding: 1rem;
     width: 10rem;
@@ -123,9 +141,7 @@ li a{
     background-color: #145f1f;
     transition: width 3s ease-in-out;
     transition-delay: 1s;
-   
 }
-
 
 /*Layout for Desktop*/
 .container{
@@ -157,7 +173,7 @@ li a{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    border-bottom: #b30050 solid 1.3rem;
+    border-bottom: #92c8ac solid 1.3rem;
 }
 
 .item-one-c{
@@ -168,6 +184,7 @@ li a{
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
+    border-bottom: #92c8ac solid 1.3rem;
     
 }
 
@@ -180,6 +197,7 @@ li a{
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
+    border-bottom: #92c8ac solid 1.3rem;
 }
 
 .item-one-e{
@@ -197,7 +215,7 @@ li a{
     grid-column: 1 / -1;
     grid-row: 2 / 3;
 
-    background-color: crimson;
+    background-color: red;
 }
 
 .item-three{
@@ -208,15 +226,8 @@ li a{
     background-color: #145f1f;
 }
 
-.item-three-b{
-    grid-column: 1 / -1;
-    grid-row: 3 / 4;
 
-
-    background-color: #b30050;
-}
-
-/*Section one Items*/
+/*Section Items*/
 
 .section-box-one{
     background-color: white;
@@ -225,13 +236,13 @@ li a{
 }
 
 .section-box-one-b{
-    background-color: white;
+   background-color: white;
    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .intro-box{
@@ -244,13 +255,44 @@ li a{
     align-self: stretch;
 }
 
+.quote-box{
+    background-color: #d58594;
+    border-radius: 1rem;
+    width: 60%;
+    height: 70%;
+    margin: 3rem;
+    margin-right: -5%;
+    padding: 2rem;
+    color: white;
+    font-size: 1.8em;
+    font-style: italic;
+
+    align-self: flex-end;
+}
+
+.quote-box-b{
+    background-color: #3a81a5;
+    border-radius: 1rem;
+    width: 60%;
+    height: 70%;
+    margin: 3rem;
+    margin-right: -5%;
+    padding: 2rem;
+    color: white;
+    font-size: 1.8em;
+    font-style: italic;
+
+    align-self: flex-end;
+}
+
+ /*Newsletter styling*/
 .form-box{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     justify-items: center;
     padding-top: 3rem;
- }
+}
  
  .form-container{
      background-color: white;
@@ -258,10 +300,7 @@ li a{
      width: 100%;
      margin-left: 1rem;
      padding: 3rem;
-     
- }
-
- /*newsletter styling*/
+}
 
  input [type=text], input[type=submit]{
     padding: .7rem;
